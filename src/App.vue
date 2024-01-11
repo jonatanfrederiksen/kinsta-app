@@ -7,7 +7,7 @@
     <div class="flex items-center justify-center h-screen grow">
       <div class="flex flex-col text-center">
         <a class="mx-auto mb-6 inline text-center" href="mailto:frederiksen.jonatan@gmail.com">
-          <img class="w-20 rounded-full hover:opacity-50 shadow-md transition-opacity" src="src/assets/profile.jpg" alt="">
+          <img class="w-20 rounded-full hover:opacity-50 shadow-md transition-opacity" src="./assets/profile.jpg" alt="">
         </a>
         <h1 class="mb-3 text-4xl">Jonatan Lundager Frederiksen</h1>
         <p class="text-lg max-w-full ">Fullstack webdeveloper</p>
