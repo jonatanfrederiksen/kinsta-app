@@ -15,7 +15,7 @@ import Navmenu from './components/Navmenu.vue';
           <img class="w-20 rounded-full hover:opacity-50 shadow-md transition-opacity" src="./assets/profile.jpeg" alt="">
           <span
             class="opacity-0 absolute inset-0 flex justify-center align-center transition-opacity hover:opacity-100"><img
-              class="w-7" src="./assets/plane.svg" alt=""></span>
+              class="w-5" src="./assets/plane.svg" alt=""></span>
         </a>
         <h1 class="mb-3 text-4xl">Jonatan Lundager Frederiksen</h1>
         <p class="text-lg max-w-full ">Fullstack webdeveloper</p>
