@@ -2,6 +2,8 @@
 import Navmenu from './components/Navmenu.vue';
 
 </script>
+
+
 <style>
 main {
   max-width: calc(100vw - 6rem);
@@ -70,7 +72,7 @@ span.btn a {
   padding: 1em 1.5em;
   border-radius: 2em;
   background: #0003;
-  color: #fff;
+  
   text-decoration: none;
   transition: background .3s;
 }
@@ -95,7 +97,10 @@ span.btn a:hover {
     padding: .5em 1em;
   }
 }
+
+
 </style>
+
 <template>
   <div class="flex ">
 
@@ -154,8 +159,11 @@ span.btn a:hover {
 
             <div class="text-md mt-10 flex justify-center gap-2">
 
-              <a class="p-4 bg-slate-800 opacity-75 hover:opacity-100 transition-opacity rounded-full flex justify-center items-center " href="mailto:jon@atan.dk"><img class="w-4" src="./assets/plane.svg" alt=""></a>
-              <a class="p-4 bg-slate-800 opacity-75 hover:opacity-100 transition-opacity rounded-full flex justify-center items-center " href="https://www.linkedin.com/in/jonatan-lundager-frederiksen-695959103/" target="_blank"><img class="w-4" src="./assets/linkedin-in.svg" alt=""></a>
+              <a class="p-4 bg-slate-800 opacity-75 hover:opacity-100 transition-opacity rounded-full flex justify-center items-center "
+                href="mailto:jon@atan.dk"><img class="w-4" src="./assets/plane.svg" alt=""></a>
+              <a class="p-4 bg-slate-800 opacity-75 hover:opacity-100 transition-opacity rounded-full flex justify-center items-center "
+                href="https://www.linkedin.com/in/jonatan-lundager-frederiksen-695959103/" target="_blank"><img
+                  class="w-4" src="./assets/linkedin-in.svg" alt=""></a>
 
             </div>
 
@@ -164,6 +172,34 @@ span.btn a:hover {
         </div>
 
       </div>
+
+      <section class="bg-white mt-32 ">
+        <div class="mx-auto max-w-screen-xl px-4 md:px-12">
+          <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
+            <div>
+              <div class="gradient h-20 overflow-hidden rounded-xl bg-gray-100 shadow-lg md:h-auto border">
+                <img
+                  src="./assets/tetris-windows.jpg"
+                  loading="lazy" alt="Photo by Martin Sanchez" class="h-full w-full object-cover object-center" />
+              </div>
+            </div>
+
+            <div class="md:py-4 my-auto">
+              <p class="text-center font-bold text-indigo-500 md:text-left">Welcome to my corner of the internet</p>
+
+              <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">Play my <span style="font-family: 'Shadows Into Light', cursive;">TETRIS</span> game</h1>
+
+              <p class="mb-6 text-gray-500 sm:text-lg md:mb-8 text-center md:text-start max-w-32 md:max-w-none">In 2021 i built my first Javascript game, since then i've learnt a lot, but it's still a lot of fun!</p>
+
+              <p class="text-center md:text-start">
+                <span class="btn text-white"><a href="https://jonatanfrederiksen.github.io/TETRIS/index.html" target="_blank">Try it out</a></span>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
 
     </main>
 
