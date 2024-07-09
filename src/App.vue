@@ -54,10 +54,8 @@ header>.wrap {
   align-items: center;
 }
 
-header .site-title {
+.site-title {
   font-family: "Honk", system-ui;
-  font-size: 2.5em;
-  line-height: 1.25;
 }
 
 header nav ul {
@@ -102,13 +100,13 @@ span.btn a:hover {
 </style>
 
 <template>
-  <div class="flex ">
+  <div class=" ">
 
     <!-- <Navmenu title="Menu"></Navmenu> -->
 
     <header class="px-6 fixed top-4 z-10 w-full">
       <div class="wrap w-full max-w-2xl flex gap-4 justify-between">
-        <a class="site-title" href="/">Jonatan</a>
+        <a class="site-title text-3xl" href="/">Jon.atan.dk</a>
 
         <nav>
           <ul>
@@ -173,7 +171,7 @@ span.btn a:hover {
 
       </div>
 
-      <section class="bg-white mt-32 ">
+      <section class="bg-white mt-20 ">
         <div class="mx-auto max-w-screen-xl px-4 md:px-12">
           <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
             <div>
@@ -200,8 +198,42 @@ span.btn a:hover {
         </div>
       </section>
 
-
     </main>
+
+    <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <div class="mx-auto max-w-screen-xl text-center">
+      <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+          
+        <a class="site-title text-4xl" href="/">Jon.atan.dk</a>
+    
+      </a>
+      <p class="my-6 text-gray-500 dark:text-gray-400">Creative fullstack web developer. <br>Email me at <a class="hover:underline" href="mailto:jon@atan.dk">jon@atan.dk</a>.</p>
+      <!-- <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+          </li>
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">Premium</a>
+          </li>
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6 ">Campaigns</a>
+          </li>
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">Blog</a>
+          </li>
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">Affiliate Program</a>
+          </li>
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">FAQs</a>
+          </li>
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
+          </li>
+      </ul> -->
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {{ new Date().getFullYear() }}. All Rights Reserved.</span>
+  </div>
+</footer>
 
 
   </div>
