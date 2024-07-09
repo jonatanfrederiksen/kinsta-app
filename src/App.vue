@@ -56,6 +56,7 @@ header>.wrap {
 
 .site-title {
   font-family: "Honk", system-ui;
+  line-height: 1.25;
 }
 
 header nav ul {
@@ -64,6 +65,10 @@ header nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+header span.btn a {
+  padding: .7em 1.5em;
 }
 
 span.btn a {
